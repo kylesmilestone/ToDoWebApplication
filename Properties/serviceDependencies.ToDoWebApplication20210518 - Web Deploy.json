@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/evnetSourcingPOC/databases/ToDoDB",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionString/ToDoDB",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}
